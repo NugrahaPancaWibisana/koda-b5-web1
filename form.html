@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Survey Perokok</title>
+  </head>
+  <body>
+    <form>
+      <input type="text" placeholder="Masukkan Nama" />
+      <br />
+      <br />
+      <input type="number" placeholder="Masukkan Umur" />
+      <br />
+      <br />
+      <label for="">Jenis Kelamin</label>
+      <div>
+        <input type="radio" name="kelamin" id="l" />
+        <label for="l">Laki-laki</label>
+      </div>
+      <div>
+        <input type="radio" name="kelamin" id="p" />
+        <label for="p">Perempuan</label>
+      </div>
+      <br />
+      <br />
+      <label for="isSmoker">Apakah anda seorang perokok?</label>
+      <select name="isSmoker" id="isSmoker">
+        <option value="" disabled selected>Pilih</option>
+        <option value="true">Perokok</option>
+        <option value="false">Bukan Perokok</option>
+      </select>
+      <br />
+      <br />
+      <label for="brandCigar">Brand rokok yang digunakan</label>
+      <div>
+        <input type="checkbox" name="sampoerna" id="sampoerna" />
+        <label for="sampoerna">Sampoerna</label>
+      </div>
+      <div>
+        <input type="checkbox" name="magnum" id="magnum" />
+        <label for="magnum">Magnum</label>
+      </div>
+      <div>
+        <input type="checkbox" name="gudang_garam" id="gudang_garam" />
+        <label for="gudang_garam">Gudang Garam</label>
+      </div>
+      <div>
+        <input type="checkbox" name="marlboro" id="marlboro" />
+        <label for="marlboro">Marlboro</label>
+      </div>
+      <div>
+        <input type="checkbox" name="djarum76" id="djarum76" />
+        <label for="djarum76">Djarum 76</label>
+      </div>
+      <br />
+      <br />
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
